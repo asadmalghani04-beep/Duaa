@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#f3f0eb","secondary-fixed":"#ffdad3","tertiary":"#020100","tertiary-fixed-dim":"#d0c4bb","on-secondary-fixed-variant":"#842411","surface-container-lowest":"#ffffff","error-container":"#ffdad6","on-tertiary-fixed":"#201a15","inverse-surface":"#31302d","primary-container":"#1c1c1c","on-error":"#ffffff","on-primary-fixed":"#1b1b1b","outline":"#747878","surface-tint":"#5f5e5e","on-error-container":"#93000a","surface-dim":"#dcdad5","secondary":"#a53b26","background":"#fcf9f4","surface":"#fcf9f4","on-primary-fixed-variant":"#474746","on-secondary-fixed":"#3e0500","on-secondary":"#ffffff","surface-container-highest":"#e5e2dd","on-surface":"#1c1c19","primary-fixed-dim":"#c8c6c5","on-surface-variant":"#444748","tertiary-container":"#211b15","surface-bright":"#fcf9f4","on-tertiary-fixed-variant":"#4d453f","surface-container-low":"#f6f3ee","primary":"#010101","on-tertiary":"#ffffff","tertiary-fixed":"#ede0d7","on-tertiary-container":"#8c827a","surface-variant":"#e5e2dd","secondary-container":"#fe7d62","secondary-fixed-dim":"#ffb4a4","on-primary-container":"#858484","error":"#ba1a1a","surface-container":"#f0ede9","outline-variant":"#c4c7c7","on-secondary-container":"#711605","primary-fixed":"#e5e2e1","on-background":"#1c1c19","surface-container-high":"#ebe8e3","inverse-primary":"#c8c6c5","on-primary":"#ffffff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-sm":"1.5rem","space-sm":"0.75rem","gutter":"2rem","space-md":"1.5rem","margin":"4rem","gutter-sm":"1rem","space-xl":"4rem","space-lg":"2.5rem","space-xs":"0.5rem"},fontFamily:{"headline-md":["Playfair Display"],"display-mobile":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"label-caps":["Inter"],"body-sm":["Inter"],"body-md":["Inter"],"display":["Playfair Display"],"body-lg":["Inter"],"label-md":["Inter"],"title":["Playfair Display"],"headline-sm":["Playfair Display"],"headline-lg":["Playfair Display"]},fontSize:{"headline-md":["2rem",{"lineHeight":"2.5rem","letterSpacing":"0em","fontWeight":"500"}],"display-mobile":["2.75rem",{"lineHeight":"3.25rem","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg-mobile":["2rem",{"lineHeight":"2.5rem","letterSpacing":"-0.01em","fontWeight":"400"}],"label-caps":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.12em","fontWeight":"600"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","letterSpacing":"0.01em","fontWeight":"400"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0em","fontWeight":"400"}],"display":["4.5rem",{"lineHeight":"5rem","letterSpacing":"-0.02em","fontWeight":"400"}],"body-lg":["1.125rem",{"lineHeight":"1.875rem","letterSpacing":"-0.01em","fontWeight":"300"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"500"}],"title":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-sm":["1.5rem",{"lineHeight":"2rem","letterSpacing":"0em","fontWeight":"500"}],"headline-lg":["3rem",{"lineHeight":"3.5rem","letterSpacing":"-0.015em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 transition-colors duration-500 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(28,24,20,0.04)]"><div class="h-20 w-full px-margin-sm md:px-space-lg lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="AURA Contemporain Gallery Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB32gY7rxkw0MayqsNurEJ2LVQCYnVlFy3eXQdYvlyCg46J3R5bFW2s9k0OPq7bqtPOr_qTh6dHgiW-Xh6KZ-3UDSrbDM2i41v6atwHw2D16PxJcRxtCrcWYZ4To4eKhQhg6BNb9VlIHSfmt8_m4TyKut6Ps2W1i3osa8AVpwFQkq0hRew1IAS3hTv7uVLBGs3MfMgY_LOMUpRahRX9XYp2jCNl01XGiv-j6_wtpEa_"/><span class="font-title text-title text-on-surface tracking-wider uppercase whitespace-nowrap">AURA Contemporain</span></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary font-label-md"><a aria-current="page" class="transition-colors bg-primary-container text-on-primary font-label-md" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#">Gallery</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="artists" href="#">Artists</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="exhibitions" href="#">Exhibitions</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="shop" href="#">Shop</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><a class="font-label-md text-label-md text-secondary hover:underline transition-colors flex items-center gap-1 font-semibold" href="https://github.com/asadmalghani04-beep/Duaa" target="_blank" rel="noopener noreferrer"><svg class="w-4 h-4 fill-current inline-block" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></nav><div class="flex items-center gap-space-sm"><div class="hidden sm:flex items-center gap-space-xs font-label-caps text-label-caps text-on-surface-variant"><button class="text-on-surface hover:text-secondary transition-colors" type="button">EUR</button><span class="opacity-40">/</span><button class="text-on-surface-variant hover:text-on-surface transition-colors" type="button">USD</button></div><button aria-label="Search Archive" class="p-space-xs rounded-full text-on-surface hover:text-secondary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Curated Cart" class="relative p-space-xs rounded-full text-on-surface hover:text-secondary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-0 right-0 transform translate-x-1 -translate-y-1 bg-secondary text-on-secondary font-label-caps text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">2</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO SECTION: Atmospheric Gallery Wall Bleed -->
+<section class="relative w-full -mt-20 overflow-hidden bg-primary text-on-primary">
+<!-- Featured Masterwork Background with Scrim -->
+<div class="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-1000 ease-out transform scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5xSc4KD_eVi-5Im5JfNS5cGjgoXaNcUtlU6CwLPQeTWXMJMRx-2EowJZnILFFBipXEYd0deFE72bm0W96h48XdRWvbGrufg7p7cS3ic2qtAh57qM4INz8_imy1xsyCL3zGmgft2bsQHMwuvAgef8n3cSOUqPadfP4iKISm8hXZwporydoGRR_-dVFb1yQwyrjXSDgdHkQz-p_aNa6dQWQfF4pU97aj8Wa6Znn9fI');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/70 to-primary/40 mix-blend-multiply pointer-events-none"></div>
+<div class="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-primary/80 pointer-events-none"></div>
+<!-- Hero Content Container -->
+<div class="relative z-10 w-full px-margin-sm md:px-space-lg lg:px-margin pt-44 pb-space-xl flex flex-col justify-between min-h-[92vh]">
+<!-- Top Kicker & Archival Tag -->
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-tertiary-fixed text-label-caps font-label-caps uppercase tracking-widest">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+          Current Salon Exhibition • Paris & Virtual
+        </span>
+</div>
+<!-- Monumental Typography Block -->
+<div class="max-w-4xl my-auto py-space-lg">
+<h1 class="font-display text-display text-surface leading-[1.05] tracking-tight mb-space-md selection:bg-secondary">
+          Where Imagination Meets Canvas
+        </h1>
+<p class="font-body-lg text-body-lg text-tertiary-fixed-dim max-w-2xl font-light leading-relaxed">
+          An intimate sanctuary curated for visionary contemporary painters, sculptors, and digital pioneers redefining modern aesthetic expression.
+        </p>
+<!-- CTA Action Hub -->
+<div class="mt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-8 py-4 bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md rounded-lg shadow-md transition-all duration-300 transform hover:-translate-y-0.5 tracking-wider uppercase flex items-center gap-space-xs group" href="#acquisitions">
+<span>Explore Gallery</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="px-8 py-4 bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-surface font-label-md text-label-md rounded-lg backdrop-blur-md transition-all duration-300 tracking-wider uppercase" href="#disciplines">
+            Meet the Artists
+          </a>
+</div>
+</div>
+<!-- Floating Bottom Curatorial Monograph Pill -->
+<div class="w-full pt-space-md flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm">
+<div class="inline-flex items-center gap-space-sm px-5 py-3 rounded-lg bg-surface/10 backdrop-blur-lg text-surface-bright shadow-sm">
+<span class="material-symbols-outlined text-secondary text-lg">palette</span>
+<p class="font-body-sm text-body-sm text-surface">
+<span class="font-medium text-tertiary-fixed">Featured:</span> “Éther Nomade No. IV” by Hélène Vance • Acrylic & Raw Terracotta on Linen (210 × 175 cm)
+          </p>
+</div>
+<button class="group inline-flex items-center gap-2 font-label-caps text-label-caps uppercase text-tertiary-fixed hover:text-secondary-fixed transition-colors" onclick="document.getElementById('inquiry-modal').classList.remove('hidden')" type="button">
+<span>Inquire Artwork</span>
+<span class="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">east</span>
+</button>
+</div>
+</div>
+</section>
+<!-- QUICK STATS BAR / SALON PROVENANCE -->
+<section class="w-full bg-surface-container-low px-margin-sm md:px-space-lg lg:px-margin py-space-md">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter items-center">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">340+</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Catalogued Works</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">24</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Represented Artists</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">3 Salons</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Paris • Chelsea • Kyoto</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary">100%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Archival Provenance Guaranteed</span>
+</div>
+</div>
+</section>
+<!-- CURATED ACQUISITIONS: Masonry Gallery (9 Works) -->
+<section class="w-full px-margin-sm md:px-space-lg lg:px-margin py-space-xl bg-surface" id="acquisitions">
+<!-- Section Header & Filter Taxonomy -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary font-semibold">Selected Works & Recent Arrivals</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Curated Acquisitions</h2>
+</div>
+<!-- Filter Controls (Functional via dataset) -->
+<div class="flex flex-wrap items-center gap-space-xs" id="filter-container">
+<button class="filter-btn active-filter px-4 py-2 rounded-full font-label-caps text-label-caps bg-primary text-on-primary transition-all" data-filter="all" type="button">
+          All Archive (9)
+        </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-caps text-label-caps bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-filter="featured" type="button">
+          Featured
+        </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-caps text-label-caps bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-filter="new" type="button">
+          New Additions
+        </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-caps text-label-caps bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-filter="museum" type="button">
+          Museum Loans
+        </button>
+</div>
+</div>
+<!-- 9 Artworks Masonry-Style Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="artwork-grid">
+<!-- Artwork 1 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="featured">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Modern abstract fine art canvas titled Resonance in Ochre with rich heavy impasto textured ochre, raw burnt sienna, and off-white pigment brushstrokes on fine Belgian linen, photographed under soft diffused museum gallery lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAO98P08caatUpaQUytFA5fmdWOyBSic0Uqn4v7UmiQMp_x9XDNvVepjiScn235Dx1Rw9WVIOEDDh1pN-erSKsMgqoG99MLWwlTg2k_VHqyV_JDDE99AzlBGznnuu6EGX3iZw8cuu5SyJRFz1L3eTAKntKYDiBN9SBWKzGC7SIKn9bCYlJ9muKVp4uO3EtFbq1GvtROPwZTkudO0zui0QrjWmqJuvmy1kp7cNAxMKY"/>
+<!-- Hover Overlay -->
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Resonance in Ochre', 'Julian Moreau', 'Oil & pigment on Belgian linen (180 × 140 cm)', '€14,800', 'Available', 'An expansive study on atmospheric vibrations, layered over twelve months with natural mineral ochres sourced from Roussillon.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Resonance in Ochre', '€14,800')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Resonance in Ochre</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Julian Moreau</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Oil & pigment on Belgian linen • 180 × 140 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€14,800</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Certificate Included</span>
+</div>
+</div>
+</article>
+<!-- Artwork 2 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="featured">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Sculptural contemporary ceramic titled Symphonie Silencieuse III featuring organic terracotta glaze and textured stoneware with curved architectural silhouettes on an off-white museum plinth in soft shadow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBua3LEIbfP-kQQt8Y2rKwV7H3f71bqSAWpqTVWOdOz7kcFTgjsW7KMk2AXolgea7ppxEBlQMnvmDkR5GzsPWY2XWunubOiSv-dLyQQodJZSeAVKzaCdo4HX8lH3eYsq22usdoxoEow5u1oqzl7HrbjPQt9LUqJ7GcHpszcHyK8dODY4q5vLQ4qM6TCVhcUHd0ijtpuRs9HFRLSl3hG3eNe_9vCwdjTadlm6_yQ_9U"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Symphonie Silencieuse III', 'Elena Rostova', 'Terracotta glaze & stoneware ceramic (85 cm)', '€9,200', 'Available', 'Wheel-thrown and hand-manipulated monolithic stoneware, fired with reduction terracotta glaze yielding rich earthy tones.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Symphonie Silencieuse III', '€9,200')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Symphonie Silencieuse III</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Elena Rostova</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Terracotta glaze & stoneware ceramic • 85 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€9,200</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Unique Piece</span>
+</div>
+</div>
+</article>
+<!-- Artwork 3 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="new">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Avant-garde digital generative artwork Liminal Horizon showing fine spectral gradients in deep slate, terracotta, and soft ivory printed on fine museum Hahnemuhle rag with crisp structural lines." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDO0bI0IWuFaZKXVWAIudQRcJuS4mRyrLG9jvCS7lknDf8Lj7fDdWgiE4EWmpr08o3KvZbl3QBL9JrPif_JG7Hv9qhXb8IvlvoP-_WzAR6MNxbRJwS49Di4qmE6YzXE4PrnwolIOWUk-pU9tHVmBsYX9iSlYcCwjqEBlqw3bUb_ioQRRCglNNXzmgjP-QMIze48hILSPsTwxUYCR_emVZnlDq-wGHmQz5rqVn_ddg"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Liminal Horizon', 'Mateo Chen', 'Digital generative print, edition 1 of 5 (120 × 90 cm)', '€4,500', 'Edition 1 of 5', 'An algorithmic meditation on continuous horizon shifts, rendered via bespoke GLSL code and printed on Hahnemühle Museum Etching 350gsm.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Liminal Horizon', '€4,500')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-caps text-[10px] tracking-wider uppercase font-semibold">
+            Edition 1 of 5
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Liminal Horizon</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Mateo Chen</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Digital generative print • 120 × 90 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€4,500</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Phygital Smart Contract</span>
+</div>
+</div>
+</article>
+<!-- Artwork 4 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="featured">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Large-scale contemporary painting L Ombre du Vent with heavy knife textured impasto in raw graphite, umber, and chalky white tones on stretched linen in a modern studio gallery setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6FEn3RkzYE4nW07vulyRDJfiWM3K2D20oRudkDpA4G_Bjun98h9MINOBL8U3lCqZNYj-axwc0Tjy39GRE7B3pD3UBzl11h1IwM48XmFlzJEwW62ZeCPSNI2VOEgHYsfMPizcbY7_eZVT9kKeO3kgCVgDDBWHhaKWq_T42Xk-FE_QpwyEP686gqaNacXerURb9ic9RwUESAZhKDcODdF8VThmo6ec1EpBlT9NOQYc"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('L\'Ombre du Vent', 'Clotilde Rey', 'Textured impasto & raw graphite (160 × 200 cm)', '€18,500', 'Available', 'Monumental canvas constructed with hand-ground graphite minerals and pure cold-pressed linseed oil, evoking wind erosion.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('L\'Ombre du Vent', '€18,500')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">L’Ombre du Vent</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Clotilde Rey</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Textured impasto & raw graphite • 160 × 200 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€18,500</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Curator Choice</span>
+</div>
+</div>
+</article>
+<!-- Artwork 5 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="new">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Contemporary mixed media artwork Fragmented Memory VII on oxidized patinated industrial steel square plate with burnt terracotta and raw rust patinas mounted on white gallery wall." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkaPwX806ZwMgcZ9xCQ9F-UbxVnAtqfUsoBWVv4v_tBSTzuyB_-zXNsALGti0He5Yui_D0MTcRy71Dn1GPWJcZHirCEbbdiUKQ7MIqGLWSAJpJbUDg_ItUiJTucsXtccZVB-h0Pni8J1hdEpnMywmyNg3dkhYTHrEOajIKX2995jgNSZHdAnxOhlX2Ep9EpCj2sJG4YncrmjH3No4nsyYsKDGvlC2mZOyq3TGqfvg"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Fragmented Memory VII', 'Soren Lindqvist', 'Mixed media on patinated steel (110 × 110 cm)', '€11,200', 'Available', 'Acid-etched corten steel sheet fused with encaustic beeswax, coal dust, and raw iron oxides.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Fragmented Memory VII', '€11,200')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Fragmented Memory VII</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Soren Lindqvist</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Mixed media on patinated steel • 110 × 110 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€11,200</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Paris Salon</span>
+</div>
+</div>
+</article>
+<!-- Artwork 6 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="featured">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Fine Japanese contemporary calligraphic ink painting Enso Variations 12 with bold singular circular gestural sumi ink stroke on textured organic fibrous cream washi paper hanging scroll." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSaMfqVhye9NWWwpAfbskm1ZyC8CLA24a6T11p0MJxTD_8RziIkMbVNRn4cxq5QRjM3nP7lcXy7zAOzboDpTXoKeXNrIahkm5rV_KgZHn-4e2MG4FXoxHD6hQrJAo9HmHMbP0zrDxZK-Bs1Sk1jEvZRhvWMKUuU7t9Qb0KKWJY7WvSXvV4w8OG2Uxwd92yYs-cTeqgMlUC-kpOXH195jXkT00pRfMEsi0b2yeg8J8"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Enso Variations #12', 'Kaori Takahashi', 'Traditional sumi ink on handmade washi (90 × 180 cm)', '€7,600', 'Available', 'Executed in a single uninterrupted breath using 80-year-old aged pine soot sumi ink on Echizen mulberry washi.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Enso Variations #12', '€7,600')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Enso Variations #12</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Kaori Takahashi</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Traditional sumi ink on handmade washi • 90 × 180 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€7,600</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Kyoto Sanctuary</span>
+</div>
+</div>
+</article>
+<!-- Artwork 7 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="new">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Archival fine art large format photograph Chromatic Nocturne with dramatic shadow play of brutalist architecture against twilight sky in muted charcoal, deep terracotta and ivory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqcDdSC7I2RDcUK5tZxlhC7kUsfTxpr9JaEtC8Ip70ZzxdpB8Hr0XUKo8lMVxnDq1CKoANNURjotXwyPD-APFmZf3Sco-moE48LwXXqe-7tQAvS0FUCBIjfW9C1NjkV3jOCAtLNm1L4t0LoXRLsfsdyB0imwHTTM_SseA6cNXsgLsYzi9SJboL3cpo-UZCruDuroUQZ7MwBXIEopKXMCEyvP1k7cqFGbTMZxrsM9s"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Chromatic Nocturne', 'Arthur Vance', 'Pigment print on archival rag (150 × 100 cm)', '€5,900', 'Available', 'Captured on 8x10 large format sheet film at dawn, printed with archival carbon pigment inks on French cotton rag.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Chromatic Nocturne', '€5,900')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Chromatic Nocturne</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Arthur Vance</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Pigment print on archival rag • 150 × 100 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€5,900</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Edition 3 of 7</span>
+</div>
+</div>
+</article>
+<!-- Artwork 8 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="museum">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Monumental sculpture Monolith of Silence of chiseled pure white Carrara marble intertwined with dark cast patinated bronze element standing tall in dramatic gallery spot lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtjSJcGasfmKw4LhXiVtCAP4hpLOnJ7TgVMaRb6ACRA7AXQMXkspk05TfSVtHo6cuPk2EP45evtEh_ZtWKiLIIWmTJeygYh4rbBLZm0A1KgT5VHZSSK4GmrnYtBgvA2fJmCRmiybJbyv4U-BInNA0hiBsCl_lIjwZsQlrGY69m6lF7V1LqRiyymVf5bdbBrXrZtzpNPAEBYy4bE4ER6EoeJCqH3UsChu0yv9xMsXA"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Monolith of Silence', 'Diane Fontaine', 'Carved Carrara marble & bronze (130 cm)', '€24,000', 'Private Treaty', 'Quarried in Pietrasanta and hand-chiseled with continuous direct carving, anchored with molten bronze counterweights.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary flex items-center gap-1.5 shadow-sm" onclick="document.getElementById('inquiry-modal').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-sm">mail</span>
+              Private Treaty
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-inverse-surface text-inverse-on-surface font-label-caps text-[10px] tracking-wider uppercase font-semibold">
+            Museum Loan / Inquire
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Monolith of Silence</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Diane Fontaine</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Carved Carrara marble & bronze • 130 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€24,000</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Private Treaty</span>
+</div>
+</div>
+</article>
+<!-- Artwork 9 -->
+<article class="artwork-card group flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500" data-category="featured">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Luminous historical contemporary oil on aged chestnut wood panel Solitude Doree with hand-applied distressed 24-karat gold leaf, deep ochre pigments, and umber layers under raking light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC39eQxSF-ER1THVnDyjAAN2U03WoOTqUhu8uAydXeUjt5ptLFfXCrB543tHmE-pIkPanSoUgqJ8arBtQ2BlIR3MHzr2QvvuJnWSZlsXV5n3RoHe9XiJ_tj95HNjsxM1eDHBB1QtHKMvRVE5gX6NYUdk31Zk4v--xdllMtsvK_mwxIg6-RLyFqoJyvpL8fbB2R7gaCAaaMQU5usG8qF3M8g_mUL2Pxl1cymZDOkGs0"/>
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-space-sm p-4">
+<button class="px-4 py-2.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-md text-label-md hover:bg-surface flex items-center gap-1.5 shadow-sm" onclick="openDossier('Solitude Dorée', 'Marcella De Luca', 'Gold leaf and oil on aged panel (95 × 120 cm)', '€12,400', 'Available', 'Inspired by early Venetian tempera traditions, reconstructed on century-old reclaimed Tuscan chestnut boards.')" type="button">
+<span class="material-symbols-outlined text-sm">visibility</span>
+              Quick View
+            </button>
+<button class="px-4 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container flex items-center gap-1.5 shadow-sm" onclick="addToAcquisition('Solitude Dorée', '€12,400')" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+              Acquire
+            </button>
+</div>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md font-label-caps text-[10px] text-on-surface tracking-wider uppercase">
+            Available
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors italic">Solitude Dorée</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Marcella De Luca</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1">Gold leaf & oil on aged panel • 95 × 120 cm</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-space-xs">
+<span class="font-title text-title text-on-surface font-semibold">€12,400</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Florence Provenance</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- ART CATEGORIES / DISCIPLINES: Horizontal Editorial Grid -->
+<section class="w-full px-margin-sm md:px-space-lg lg:px-margin py-space-xl bg-surface-container-low" id="disciplines">
+<div class="max-w-2xl mb-space-lg">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary font-semibold">Mediums & Practices</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Explore by Discipline</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 font-light">
+        Explore curated collections across traditional mediums and avant-garde disciplines.
+      </p>
+</div>
+<!-- 5 Discipline Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Discipline 1: Paintings -->
+<a class="group relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end p-space-md shadow-sm hover:shadow-xl transition-all duration-500" href="#acquisitions">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110" data-alt="Close up rich impasto oil painting palette knife strokes with raw pigments in cadmium red, burnt ochre, and linen white textures." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2VkEbOqQQNhErhu33bQSZ6QfaX82YGs880Vp2ktxzeF3PGdr-egQuKYtzRhbIGbS03L3kyDAnF5xKX4MBk5FV59PCPPE9bYMtzAP0_0gJWOZQfdiN8tdgBukpNyIQjEXvnSwYxlGSTkaiiWiFbfQ6yiQjA4wC0aP-7XJXfoZgm4UOz8WyjbytFFpugXKJ-uekzFuzsZLHUB_JGU5oSz3qdXmVTuslN4Lh8zLHRfI')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">142 Works</span>
+<h3 class="font-title text-title text-surface font-semibold mt-1">Paintings</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1 line-clamp-2">Impasto, Oils, Acrylic & Encaustic Masterworks</p>
+<div class="mt-space-sm flex items-center gap-1 text-label-caps font-label-caps uppercase tracking-wider text-surface group-hover:text-secondary-fixed transition-colors">
+<span>Explore Collection</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Discipline 2: Digital Art -->
+<a class="group relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end p-space-md shadow-sm hover:shadow-xl transition-all duration-500" href="#acquisitions">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110" data-alt="Digital algorithmic generative artwork with fluid wave patterns and luminous organic gradient meshes on obsidian black backdrop." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAtpXTTx-0Nms8U_9D3V6dBRWImQpdzKvnFzIyrHiJh8Em7agS-JasygFNgxty5BuHLaBuS4e9QO4Xs7QS5X_QIGrDJJY6vKeh8Is6t8Vs05o6fsirethqHdet9m8WlYXEgXiB1FYtk07Bm08DGi9AuiQCdRNO0B7I_LC40HkIgDHCKboGo4lvZARmJlduluP9CflWw4E-gWjhivr2-6Pwz6DYkrqcToYhfukNUcCI')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">68 Works</span>
+<h3 class="font-title text-title text-surface font-semibold mt-1">Digital Art</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1 line-clamp-2">Generative Algorithmic Pieces & Archival Phygital Editions</p>
+<div class="mt-space-sm flex items-center gap-1 text-label-caps font-label-caps uppercase tracking-wider text-surface group-hover:text-secondary-fixed transition-colors">
+<span>Explore Collection</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Discipline 3: Sculpture -->
+<a class="group relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end p-space-md shadow-sm hover:shadow-xl transition-all duration-500" href="#acquisitions">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110" data-alt="Modern bronze and natural carved stone sculpture forms displayed in minimalist museum gallery with soft ambient spotlight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC1HmOzlVmtDTLIYKGTjZ5e5l-b3mrOs0RxjZnu-wzyaFRYGz-0jiyY2hiRD12Xebf0Px_qIAugnCF3ajaGBp7sWqvhqd5o3TAYFdJSLtwkvnN4YrUsWid7qvT_fPytyG6-wQNc3-ITPeJqw-XFznnATxkC4b3CSccSPbLheP63ZgBGKizRityAw4i08x6Uz9EDPcD4Ym3YxV58MenmVSlPm-lAwl3c7rrZNWxftc8')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">54 Works</span>
+<h3 class="font-title text-title text-surface font-semibold mt-1">Sculpture</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1 line-clamp-2">Carved Stone, Cast Bronze, Kinetic & Bas-Relief</p>
+<div class="mt-space-sm flex items-center gap-1 text-label-caps font-label-caps uppercase tracking-wider text-surface group-hover:text-secondary-fixed transition-colors">
+<span>Explore Collection</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Discipline 4: Photography -->
+<a class="group relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end p-space-md shadow-sm hover:shadow-xl transition-all duration-500" href="#acquisitions">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110" data-alt="High contrast silver gelatin monochrome fine art photography showing delicate textures of human hands molding natural clay." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAZjXEGxJq7aizQ2493U0xgLZb7H7nUtEOrqymg3gJWOp8AeGL77UeToAQuiu08HtrFOJ1jKICtT6wUQ4HWqOd9ZIsipMapYl5HOFu5WEwrgHfO0pA2BlShUAML7yvzi3xmvSMdTrnmKGtqnFWgYv9V2cQlNeNCt7kvamtrmdXAqvfrgm1-_kzM_M0R3IdZ2XOG9eUGi_SacStVf1OKMmrE36ydI-6DJCdm07H1I_Y')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">89 Works</span>
+<h3 class="font-title text-title text-surface font-semibold mt-1">Photography</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1 line-clamp-2">Silver Gelatin, Archival Pigment & Large-Format Works</p>
+<div class="mt-space-sm flex items-center gap-1 text-label-caps font-label-caps uppercase tracking-wider text-surface group-hover:text-secondary-fixed transition-colors">
+<span>Explore Collection</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Discipline 5: Calligraphy -->
+<a class="group relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end p-space-md shadow-sm hover:shadow-xl transition-all duration-500" href="#acquisitions">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110" data-alt="Flowing Japanese shodo sumi ink calligraphy on organic fibrous textured cream paper showing brush stroke splash and dry brush velocity." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDcfEC5F9kyyzh1K4pj2e4vERXanKIk9hvJNGDmcJ7SJW8wj6n7hHiJbWU4tm37wmes15g7bsAMzcsXS0NQ6kbJ3QecunbGNnCAgAoJvNPz2LUUAauX-KTS3hA2_ejbn9uGihCKFsSogDLZvyHWBHK8Z-f_WmsZas3h4WqxFz_-GsJhcNJZ5Pk0jhWqKbdof4XjvXfotlwmmHv2p_ol0J20j_TTALn4DDzsvnMJp2g')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">37 Works</span>
+<h3 class="font-title text-title text-surface font-semibold mt-1">Calligraphy</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest mt-1 line-clamp-2">Contemporary East Asian Script, Gestural Ink & Typographic Form</p>
+<div class="mt-space-sm flex items-center gap-1 text-label-caps font-label-caps uppercase tracking-wider text-surface group-hover:text-secondary-fixed transition-colors">
+<span>Explore Collection</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- CURATOR'S NOTE & VISITOR VIP SERVICES -->
+<section class="w-full px-margin-sm md:px-space-lg lg:px-margin py-space-xl bg-surface">
+<!-- Editorial Quote Banner -->
+<div class="relative rounded-lg bg-surface-container-high p-space-lg md:p-space-xl overflow-hidden shadow-sm">
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Curator Portrait -->
+<div class="lg:col-span-4 flex items-center gap-space-md">
+<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md">
+<img class="w-full h-full object-cover" data-alt="Sophisticated female art curator Vivienne Laurent with elegant silver hair and black architectural blazer in art gallery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtjAZ5SkuMAWoQOcO6JXVKv6_USoaPR5ixMjOLgNZDcrfMeBpuqA1P_yCMy9dkAMg6rg4zrkKMscE412Jr_guFQmEztrMP8Km5iuHZubkHXyvd6mJPkFyfbD5ex6AoYXJcd5zQ8GiitYfCISJgKa5hUyrmmvwiH0rtzU3GU7OX3DGbkhjXXF6sg-_Jvfsf-DwvHT7LqXJZIiKkAydZT4HKZJMiTKrfpRdTPMpIjaU"/>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Vivienne Laurent</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider mt-1">Chief Curator • Paris Salon</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Membre du Conseil International des Musées</span>
+</div>
+</div>
+<!-- Curatorial Quote -->
+<div class="lg:col-span-8 flex flex-col justify-center">
+<span class="material-symbols-outlined text-4xl text-secondary opacity-40 mb-2">format_quote</span>
+<blockquote class="font-headline-md text-headline-md text-on-surface italic leading-snug">
+            “Art in the contemporary sphere does not merely depict our world; it recalibrates how we perceive silence, weight, and the ephemeral breath between physical matter and intellectual contemplation.”
+          </blockquote>
+</div>
+</div>
+</div>
+<!-- VIP Services & Private Viewing Bar -->
+<div class="mt-space-md rounded-lg bg-primary text-on-primary p-space-lg flex flex-col lg:flex-row items-center justify-between gap-space-md shadow-md">
+<div class="flex flex-col md:flex-row items-center gap-space-md text-center md:text-left">
+<div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-secondary text-2xl">verified</span>
+</div>
+<div>
+<h4 class="font-title text-title text-surface font-semibold">Bespoke Acquisition & Provenance Protocol</h4>
+<p class="font-body-sm text-body-sm text-tertiary-fixed-dim mt-0.5">
+            Certificate of Authenticity issued by the artist monograph foundation. Global white-glove fine art transit and private salon viewing appointments available.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="px-6 py-3 rounded-lg bg-surface text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors font-label-md text-label-md uppercase tracking-wider shadow-sm" onclick="document.getElementById('inquiry-modal').classList.remove('hidden')" type="button">
+          Reserve Private Viewing
+        </button>
+</div>
+</div>
+</section>
+<!-- QUICK DOSSIER MODAL (Interactive Lightbox) -->
+<div class="fixed inset-0 z-50 hidden bg-primary/80 backdrop-blur-md flex items-center justify-center p-4" id="dossier-modal">
+<div class="relative w-full max-w-2xl bg-surface-container-lowest rounded-lg shadow-2xl p-space-lg flex flex-col gap-space-md">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface" onclick="closeDossier()" type="button">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-semibold" id="dossier-status">Available</span>
+<h3 class="font-headline-md text-headline-md text-on-surface italic mt-1" id="dossier-title">Artwork Title</h3>
+<p class="font-title text-title text-on-surface-variant" id="dossier-artist">Artist Name</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-container mt-1" id="dossier-medium">Medium Specs</p>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed" id="dossier-desc">Curatorial commentary...</p>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold" id="dossier-price">€0,000</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-5 py-2.5 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors uppercase" onclick="closeDossier(); document.getElementById('inquiry-modal').classList.remove('hidden');" type="button">
+            Inquire Details
+          </button>
+<button class="px-6 py-2.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-container transition-colors uppercase" onclick="addToAcquisition(document.getElementById('dossier-title').innerText, document.getElementById('dossier-price').innerText); closeDossier();" type="button">
+            Acquire Now
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- PRIVATE INQUIRY & VIEWING MODAL -->
+<div class="fixed inset-0 z-50 hidden bg-primary/80 backdrop-blur-md flex items-center justify-center p-4" id="inquiry-modal">
+<div class="relative w-full max-w-lg bg-surface-container-lowest rounded-lg shadow-2xl p-space-lg flex flex-col gap-space-md">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface" onclick="document.getElementById('inquiry-modal').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary font-semibold">Concierge Protocol</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Inquire or Schedule Viewing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Our curatorial advisory team responds within 24 hours.</p>
+</div>
+<form class="flex flex-col gap-space-sm" onsubmit="event.preventDefault(); showNotice('Inquiry received. A senior curator will contact you shortly.'); document.getElementById('inquiry-modal').classList.add('hidden');">
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">Full Name & Title</label>
+<input class="w-full px-4 py-2.5 bg-surface-container-low text-on-surface font-body-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="Lord/Lady, Dr., or Full Name" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">Email Dossier Address</label>
+<input class="w-full px-4 py-2.5 bg-surface-container-low text-on-surface font-body-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="collector@institution.org" required="" type="email"/>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">Salon of Interest</label>
+<select class="w-full px-4 py-2.5 bg-surface-container-low text-on-surface font-body-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary">
+<option>Paris — Le Marais (28 Rue de Turenne)</option>
+<option>New York — Chelsea (524 West 24th St)</option>
+<option>Kyoto — Gion Sanctuary</option>
+<option>Virtual Curated Tele-Dossier</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">Notes / Specific Masterpiece</label>
+<textarea class="w-full px-4 py-2.5 bg-surface-container-low text-on-surface font-body-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="Specify catalogued works or private collection focus..." rows="3"></textarea>
+</div>
+<button class="mt-2 w-full py-3 bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md rounded-lg uppercase tracking-wider transition-colors shadow-sm" type="submit">
+          Submit Archival Request
+        </button>
+</form>
+</div>
+</div>
+<!-- TOAST NOTIFICATION -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toast-notice">
+<div class="px-5 py-3 rounded-lg bg-primary text-on-primary shadow-xl font-label-md text-label-md flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+<span id="toast-text">Acquisition added to cart.</span>
+</div>
+</div>
+<script>
+    // Filtering mechanism for Artworks
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const artworkCards = document.querySelectorAll('.artwork-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+
+        const filter = btn.getAttribute('data-filter');
+        artworkCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Quick View Dossier
+    function openDossier(title, artist, medium, price, status, desc) {
+      document.getElementById('dossier-title').innerText = title;
+      document.getElementById('dossier-artist').innerText = artist;
+      document.getElementById('dossier-medium').innerText = medium;
+      document.getElementById('dossier-price').innerText = price;
+      document.getElementById('dossier-status').innerText = status;
+      document.getElementById('dossier-desc').innerText = desc;
+      document.getElementById('dossier-modal').classList.remove('hidden');
+    }
+
+    function closeDossier() {
+      document.getElementById('dossier-modal').classList.add('hidden');
+    }
+
+    // Acquisition toast feedback
+    function addToAcquisition(title, price) {
+      showNotice(`Acquisition reserved: ${title} (${price})`);
+    }
+
+    function showNotice(msg) {
+      const toast = document.getElementById('toast-notice');
+      const text = document.getElementById('toast-text');
+      text.innerText = msg;
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 3500);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="w-full px-margin-sm md:px-space-lg lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter"><div class="lg:col-span-4 flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">AURA Contemporain</span><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Premier international fine art gallery presenting modern monographs, curated masterworks, and site-specific spatial installations.</p><div class="mt-space-md flex flex-col gap-space-xs"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Curatorial Gazette</span><form class="flex items-center gap-space-xs max-w-sm" onsubmit="event.preventDefault();"><input class="w-full px-space-sm py-space-xs bg-surface-container-lowest text-on-surface font-body-sm text-body-sm rounded focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="collector@institution.org" type="email"/><button class="px-space-sm py-space-xs bg-primary text-on-primary hover:bg-secondary transition-colors font-label-caps text-label-caps rounded uppercase" type="submit">Subscribe</button></form></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Gallery Pavilions</span><div class="flex flex-col gap-space-md"><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface font-semibold">Paris — Le Marais</span><span class="font-body-sm text-body-sm text-on-surface-variant">28 Rue de Turenne, 75003</span></div><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface font-semibold">New York — Chelsea</span><span class="font-body-sm text-body-sm text-on-surface-variant">524 West 24th Street, NY 10011</span></div><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface font-semibold">Kyoto — Gion Sanctuary</span><span class="font-body-sm text-body-sm text-on-surface-variant">Higashiyama-ku, Kyoto 605-0073</span></div></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Current & Upcoming</span><div class="flex flex-col gap-space-md"><div class="flex flex-col"><span class="font-title text-title text-on-surface">Silent Monoliths</span><span class="font-body-sm text-body-sm text-secondary">Oct 12 — Dec 04 • Paris</span></div><div class="flex flex-col"><span class="font-title text-title text-on-surface">Terracotta Chronology</span><span class="font-body-sm text-body-sm text-on-surface-variant">Dec 15 — Feb 20 • New York</span></div><div class="flex flex-col"><span class="font-title text-title text-on-surface">Sumi Transcendence</span><span class="font-body-sm text-body-sm text-on-surface-variant">Jan 08 — Mar 14 • Kyoto</span></div></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Archival & Social</span><div class="flex flex-col gap-space-xs font-label-md text-label-md text-on-surface-variant"><a class="hover:text-secondary transition-colors font-semibold flex items-center gap-1.5" href="https://github.com/asadmalghani04-beep/Duaa" target="_blank" rel="noopener noreferrer"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub (Duaa Repo)</a><a class="hover:text-secondary transition-colors" href="#">Instagram</a><a class="hover:text-secondary transition-colors" href="#">Artsy Archive</a><a class="hover:text-secondary transition-colors" href="#">MutualArt Registry</a><a class="hover:text-secondary transition-colors" href="#">Catalogue Raisonné</a><a class="hover:text-secondary transition-colors" href="#">Press Inquiries</a></div></div></div><div class="mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 AURA Contemporain Gallery. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Provenance Policy</a><a class="hover:text-on-surface transition-colors" href="#">Privacy Dossier</a><a class="hover:text-on-surface transition-colors" href="#">Acquisition Terms</a></div></div></div></footer></body></html>
